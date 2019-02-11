@@ -1,9 +1,9 @@
 # Site settings
 title: Adrian Danao-Schroeder
 description: 'Aerospace Engineering and Chinese Double Major at the University of Maryland College Park'
-url: "adriandanao.com"
+url: 'adriandanao.com'
 baseurl: 
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-134256606-1'
 # disqus_shortname: 'your-disqus-name'
 
 author:
