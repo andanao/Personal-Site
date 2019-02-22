@@ -1,44 +1,77 @@
-# Site settings
-title: Adrian Danao-Schroeder
-description: 'Aerospace Engineering and Chinese Double Major at the University of Maryland College Park'
-url: ''
-baseurl: ''
-google_analytics: 'UA-134256606-1'
-# disqus_shortname: 'your-disqus-name'
+# Site
+title:              Adrian Danao-Schroeder
+bio:                'Aerospace Engineering and Chinese at the University of Maryland College Park'
+description:        'Aerospace Engineering and Chinese at the University of Maryland College Park'
+reading_time:       false
+words_per_minute:   200
+logo:               'assets/img/logo.png'
+background:         'assets/img/background.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                
 
-author:
-  name: 'Adrian Danao Schroeder'
-  email: adriandanao@gmail.com
-#  twitter_username: adrian.danao
-#  facebook_username: [wee](/assets/A_Danao-Schroeder_resume_2019-02.pdf)
-  github_username:  andanao
-  linkedin_username:  adrian-danao-schroeder-a85698155
-
-  
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
-
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
-
-sass:
-    sass_di\: _sass
-    style: compressed
-
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
 kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
 
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+# Comments
+# disqus_shortname:   
+
+# Social
+# if you don't have any of social below, comment the line.
+google:
+  #plus:            #username
+  analytics:      'UA-134256606-1'
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+email:              adriandanao@gmail.com
+#twitter:            username
+#facebook:           username
+github-url:         andanao
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:          adrian-danao-schroeder-a85698155
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+plugins:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-seo-tag
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
