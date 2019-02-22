@@ -8,7 +8,7 @@ permalink: /about/
 <p style="font-size:20px">
 <font color="#282828">
 
-Born in a house in Matagalpa Nicaragua and grew up in 4 countries and both coasts of the US. I am currently working on a dual degree in Chinese and Aerospace Engineering. <br><br>
+Born in a house in Matagalpa Nicaragua I grew up in 4 countries and both coasts of the US. I am currently working on a dual degree in Chinese and Aerospace Engineering. <br><br>
 
 In my free time I like to cook and play classical guitar.
 </font><br>
