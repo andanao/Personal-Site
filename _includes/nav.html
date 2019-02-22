@@ -88,11 +88,10 @@
 			<li>
                 <a href="{{ site.url }}/Resume/">Resume</a>
             </li>
-            <!--
             <li><a href="{{ site.url }}/Portfolio/">Portfolio</a></li>
         
             <li><a href="{{ site.url }}/tags/">Tags</a></li>
--->
+
 			{% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
