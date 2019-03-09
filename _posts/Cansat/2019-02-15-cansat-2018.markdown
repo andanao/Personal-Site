@@ -5,8 +5,10 @@ date:  2018-07-01
 project: true
 categories: []
 tags: [NX, ANSYS, MATLAB]
-excerpt: "fill!!"
+excerpt: UMD entry to International CANSAT Competition
 comments: false
 feature: http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg
 ---
 ## draft
+
+infolder!!
