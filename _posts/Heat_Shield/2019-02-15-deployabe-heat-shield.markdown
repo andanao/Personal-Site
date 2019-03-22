@@ -17,6 +17,11 @@ comments: false
     <figcaption>Caption describing these two portfolio.</figcaption>
 </figure>
 
+<figure>
+	<a href="/portfolio/Heat_Shield/reentry_vehicle.png"><img src = "/portfolio/Heat_Shield/reentry_vehicle.png"></a>
+</figure>
+
+
 
 [TARDIS AIAA Paper](/portfolio/Heat_Shield/TARDIS_Paper.pdf)
 tests
