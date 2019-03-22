@@ -1,7 +1,8 @@
 ---
 title: Deployabe Heat Shield
 layout: post
-date:  2019-02-15
+date:  2019-03-22
+daterange: July 2018 - Present
 project: true
 categories: [Research]
 tags: [NX,ANSYS,MATLAB, Fabrication, Simulation]
