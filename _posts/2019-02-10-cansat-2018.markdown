@@ -1,9 +1,0 @@
----
-title: Cansat 2018
-layout: post
-date: 2018-07-01
-categories: [portfolio]
-tags: [NX, ANSYS, MATLAB]
-permalink: /:categories/:title
----
-## DRAFT

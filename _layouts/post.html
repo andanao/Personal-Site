@@ -16,29 +16,36 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             {% if page.project %}
-            <a class="btn zoombtn" href="{{site.url}}/portfolio/">
-                {% else %}
-                <a class="btn zoombtn" href="{{site.url}}/posts/">
-                    {% endif %}
-                    <i class="fa fa-chevron-left"></i>
-                </a>
+                
                 <div class="content">
+                    <a class="btn zoombtn" href="{{site.url}}/portfolio/">
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
                     <div class="post-title {% if page.feature %} feature {% endif %}">
                         <h1>{{ page.title }}</h1>
-                        <h4>{{ page.date | date_to_string }}</h4>
+
+                        <h4>
+                            {{ page.daterange }}
+                        </h4>
                     </div>
                     {{ content }}
+
                     <div class="entry-meta">
                         {% include meta.html %}
                     </div>
                 </div>
-            </div>
-            {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
-        </header>
-        {% include scripts.html %}
-        {% if site.mathjax == true %}
+            {% endif %}
+        </div>
+
+        {% if page.comments and site.disqus_shortname %}
+            <section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->
+        {% endif %}
+    </header>
+    {% include scripts.html %}
+
+    {% if site.mathjax == true %}
         <!-- MathJax -->
         <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        {% endif %}
-    </body>
-    </html>
+    {% endif %}
+   </body>
+</html>

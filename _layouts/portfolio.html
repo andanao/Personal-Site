@@ -9,6 +9,7 @@ layout: compress
 <head>
     {% include head.html %}
 </head>
+
 <body>
     {% include nav.html %}
     <!-- Header -->
@@ -27,16 +28,16 @@ layout: compress
 
                 <hr class="hr-line">
                 <div class="post-list">
-                    {% for post in site.posts %} 
+                {% for post in site.posts %} 
                     {% if post.project %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration=".5s" onclick="location.href='{{site.url}}{{ post.url}}';">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                             <p>{{ post.excerpt }}</p>
-                        </a>
-                    </li>
-                </ul>
-                {% endif %}
+                            </a>
+                        </li>
+                    </ul>
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>

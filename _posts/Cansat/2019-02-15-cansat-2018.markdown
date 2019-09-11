@@ -2,10 +2,15 @@
 title: Cansat 2018
 layout: post
 date:  2018-07-01
+daterange: October 2017 - July 2018
 project: true
 categories: []
 tags: [NX, ANSYS, MATLAB]
-excerpt: "fill!!"
+excerpt: UMD entry to International CANSAT Competition
 comments: false
 ---
 ## draft
+
+{{ "now" | date: "%B %Y" }}
+
+infolder!!
