@@ -1,8 +1,8 @@
 ---
 title: Deployabe Heat Shield
 layout: post
-date:  2019-11-05
-daterange: July 2018 - May 2019
+date:  2019-03-23
+daterange: July 2018 - July 2019
 project: true
 categories: [Research]
 tags: [NX,ANSYS,MATLAB, Fabrication, Simulation]
@@ -10,6 +10,8 @@ excerpt: "Research and development project for the UMD Space Systems Lab"
 comments: false
 ---
 ## draft
+
+Continuation on the research done at the University of Maryland's Space Systems Laboratory on deployable heat shields.
 
 <figure class="half">
     <a href="/portfolio/Heat_Shield/00deg.png"><img src="/portfolio/Heat_Shield/00deg.png"></a>
