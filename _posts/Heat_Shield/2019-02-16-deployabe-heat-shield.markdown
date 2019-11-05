@@ -13,7 +13,6 @@ comments: false
 
 Continuation on the research done at the University of Maryland's Space Systems Laboratory on deployable heat shields.
 
-
 <figure class="half">
     <a href="/portfolio/Heat_Shield/00deg.png"><img src="/portfolio/Heat_Shield/00deg.png"></a>
     <a href="/portfolio/Heat_Shield/10deg.png"><img src="/portfolio/Heat_Shield/10deg.png"></a>
