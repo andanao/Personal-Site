@@ -19,14 +19,10 @@ The group consisted of 8 1st and 2nd year students.  We worked quickly and never
 
 Having seen previous attempts with 3D printing wheels fail due to sinking and/or lack of grip, I designed deep and large diameter wheels with paddles to help provide traction.  The wheels ended up having no issues moving over the sand and allowed the robot to easily navigate the sand course.
 
-The design of the robot was made to be simple and easy to work with, the frame used was a block of wood that made it easy to mount components to and change, and was cheap enough that it could be easily scrapped if any problem came up.  We used 4 independantly controlled motors to more around, and a servo to control the plunger mechanism.  To determine the location in teh course we used 2 ultrasonic distance sensors to determine distance to the wall to the right and front of the robot.  An Arduino Mega with a motor shield was used to control the entire robot.
+The design of the robot was made to be simple and easy to work with, the frame used was a block of wood that made it easy to mount components to and change, and was cheap enough that it could be easily scrapped if any problem came up.  We used 4 independantly controlled motors to more around, and a servo to control the plunger mechanism.  To determine the location in teh course we used 2 ultrasonic distance sensors to determine distance to the wall to the right and front of the robot, additionally the robot would recieve the locationand heading of the robot within the course transmitted over rf.  An Arduino Mega with a motor shield was used to control the entire robot.  In addition to 
 
 The plunger subassemply was powered by a servo mounted to a rack and pinion.  Salinity was measured by determining the resistance across a pair of wires, these wires were also used to determine when the plunger first contacted the water.  A contact switch was used to determine when the plunger had reached the bottom of the pool of water.  By comparing the difference in angles from when the plunger first reached the water to the angle when the contact switch was activated, the depth of water was calculated.  Using this method the depth of the water was measured to within ±1mm.
 
-Teamwork: worked together and actually managed to get shit done on time by just going for it and dealing with the fucking consequences later on which worked out super well for use becasue we basically didn't have to wait around for shit to be designed and could deal with the early issues and solve the problem of making a skookumer design later on.
+In the end our team managed to complete all of the the mission objectives when using the coordinates provided by the course, however when the course changed and a different coordination system was provided we ran into trouble during calibration and were unable to complete the course solely relying on our on board distance sensors.
 
-What the fuck did I do: designed some parts, not super managerial i'm not entierly sure.
-
-End results: we slapped
-
-Click [here](\portfolio\OSV\IMG2673127916211807558.jpg) for the final design presentation
+The final design presentation for the Over Sand Vehicle can be found [here.](\portfolio\OSV\IMG2673127916211807558.jpg)
