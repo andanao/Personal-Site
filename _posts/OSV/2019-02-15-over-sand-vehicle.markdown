@@ -11,7 +11,13 @@ comments: false
 ---
 ## draft
 
-<!-- ADD image of debbie -->
+![OSV](\portfolio\OSV\20160426_114853.jpg)
+
+The semester long project for the Introduction to Engineering Design (ENES 100) class at the Universtiy of
+
+One of the first required engineering courses at the University of Maryland in College Park is Introduction to Engineering Design otherwise known as ENES 100,  the goal of the class is to teach students the basics of engineering design through the experience of working on a semester long group project.  In the Spring of 2016 when I took the class the project was to create a robot capable of autonomously navigating a sandy course to complete certain mission objectives.  The group I was assigned to was given the mission objective of finding a pool of water in the course, measuring and transmitting its depth, salinity and taking a water sample.
+
+
 
 The goal of the ENES 100 class at the Universtiy of Maryland College park, is to g
 
