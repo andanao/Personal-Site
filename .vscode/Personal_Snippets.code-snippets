@@ -15,15 +15,6 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Print to console": {
-		// "scope": "javascript,typescript",
-		"prefix": "log",
-		"body": [
-			"console.log('$1');",
-			"$2"
-		],
-		"description": "Log output to console"
-	},
 	"Figure 1": {
 		// "scope": "markdown,typescript",
 		"prefix": "fig1",
@@ -35,5 +26,18 @@
 			"$0"
 		],
 		"description": "1 Picture Figure"
+	},
+	"Figure 2": {
+		// "scope": "markdown,typescript",
+		"prefix": "fig2",
+		"body": [
+			"<figure class=\"half\">",
+			"\t<a href=\"$1\"><img src=\"$1\"></a>",
+			"\t<a href=\"$2\"><img src=\"$2\"></a>",
+			"\t<figcaption>$3</figcaption>",
+			"</figure>",
+			"$0"
+		],
+		"description": "2 Picture Figure"
 	}
 }
