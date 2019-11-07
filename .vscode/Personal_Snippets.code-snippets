@@ -24,7 +24,7 @@
 		],
 		"description": "Log output to console"
 	},
-	"Figure": {
+	"Figure 1": {
 		// "scope": "markdown,typescript",
 		"prefix": "fig1",
 		"body": [
