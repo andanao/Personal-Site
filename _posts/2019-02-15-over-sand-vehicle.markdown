@@ -29,10 +29,12 @@ The robot was designed with simple and cheap parts that would be easy to work wi
 
 The plunger subassembly was powered by a servo mounted to a rack and pinion.  Salinity was measured by determining the resistance across a pair of wires, these wires were also used to determine when the plunger first contacted the water.  A contact switch was used to determine when the plunger had reached the bottom of the pool of water.  By comparing the difference in angles from when the plunger first reached the water to the angle when the contact switch was activated, the depth of water was calculated.  Using this method the depth of the water was measured to within ±1mm.
 
-<figure>
+<figure class="half">
 	<a href="\portfolio\OSV\OSV8.png"><img src="\portfolio\OSV\OSV8.png"></a>
-	<figcaption>Plunger subassembly CAD model</figcaption>
+	<a href="\portfolio\OSV\20160414_113045.jpg"><img src="\portfolio\OSV\20160414_113045.jpg"></a>
+	<figcaption>Plunger subassembly</figcaption>
 </figure>
+
 
 Having seen previous attempts with 3D printing wheels fail due to sinking and/or lack of grip, I designed deep and large diameter wheels with paddles to help provide traction.  The wheels ended up having no issues moving over the sand and allowed the robot to easily navigate the sand course.
 
