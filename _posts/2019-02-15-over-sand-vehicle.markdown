@@ -10,8 +10,16 @@ excerpt: "Autonomous robot built for Intro to Engineering Design Class"
 comments: false
 ---
 ## draft
+<!-- 
+<figure>
+    <a href="">
 
-![OSV](\portfolio\OSV\20160426_114853.jpg)
+![OSV](\portfolio\OSV\20160426_114853.jpg) -->
+
+<figure>
+	<a href="\portfolio\OSV\20160426_114853.jpg"><img src="\portfolio\OSV\20160426_114853.jpg"></a>
+	<figcaption>Over Sand Vehicle Robot</figcaption>
+</figure>
 
 One of the first required engineering courses at the University of Maryland in College Park is Introduction to Engineering Design otherwise known as ENES 100,  the goal of the class is to teach students the basics of engineering design through the experience of working on a semester long group project.  When I took the class in the Spring of 2016 the project was to create a robot capable of autonomously navigating a sandy course to complete certain mission objectives.  The group I was assigned to was given the mission objective of finding a pool of water in the course; then measuring and transmitting its depth, salinity and taking a water sample.
 
