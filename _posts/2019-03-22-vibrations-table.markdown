@@ -1,12 +1,12 @@
 ---
 title: Vibrations Table
-layout: page
+layout: post
 date:  2018-10-01
-daterange: October 2018 - December 2018
+daterange: November 2018 - December 2018
+project: true
 categories: []
 tags: [NX, MATLAB]
-project: true
-excerpt: "fill!!"
+excerpt: "Demonstration table for structual dynamics and application of a tuned mass damper"
 ---
 ## draft
 
