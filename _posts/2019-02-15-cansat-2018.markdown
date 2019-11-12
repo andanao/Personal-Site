@@ -16,18 +16,32 @@ comments: false
     <figcaption>¯\_(ツ)_/¯</figcaption>
 </figure>
 
-<!-- What Cansat is, what that years thing was
+[Cansat](http://www.cansatcompetition.com/) is an annual international student design, build, fly competition focused on space-related topics.  The 2018 competition was to a payload that would be launched on a rocket with deployabale heat shield capable of slowing the payloads descent.  The payload is released from the rocket at apogee, then as the payload falls the heat shield deploys to slow the descent to 10 m/s, at an altitude of 300 m the payload would deploy a parachute and drop the heat shield and touch down.  During the descent the payload transmits atmospheric, orientation, altitude, and GPS data to a groundstation.  In addition to the electronics the payload also had to contain an egg used to simulate a delicate instrument, which was required to survive the flight.
 
-What I was responsible for doing
+[**add Conops picture** ](\portfolio\Cansat\prelaunch.jpg) (or just describe conops)
 
-Design and build (fuuuck just 2 ppl)
+A team of 6 student researchers (including myself) at the University of Maryland's [Space Systems Lab](http://spacecraft.ssl.umd.edu) were interested in joining this competition since the lab has done previous research on deployable heat shields for atmospheric reentry<sup>[1](https://spacecraft.ssl.umd.edu/publications/pub_index.html#1998)[2](https://spacecraft.ssl.umd.edu/publications/pub_index.html#1990)</sup> and since 2017 has had active research into development of deployable heat shield concept for atmospheric reentry, which during 2018 led to a conference call with [SpaceX](https://twitter.com/QuinnKupec/status/985736260827471872?s=19) about the potential for development of a deployable recovery system for upper stage recovery.
 
-Testing process (yay for a failed parachute (idk if this should be in there honestly maybe just write a thing about how it was tested and how you verified your shitty aerodynamics CFD (lots of guesswork)))
+The mechanical design of the payload was accomplished by another student and I.  I worked primarily on the design of the payload canister, which housed the parachute, electronics, heat shield release mechanism and the egg.
 
-Actual Competition
-
-Results -->
-
-[Cansat](http://www.cansatcompetition.com/) is an annual student design build and fly competition focused on space-related topics.  In 2018 Competition, goal of the competition was to create a deployable heat shield that would be launched from a rocket **add Conops picture** and be capable of recordingand capturing data during its descent.  A team of 6 student researchers (including myself) decided to enter the competition because the University of Maryland's [Space Systems Lab](http://spacecraft.ssl.umd.edu) has done research on deployable heat shields for atmospheric reentry <sup>[1](https://spacecraft.ssl.umd.edu/publications/pub_index.html#1998) [2](https://spacecraft.ssl.umd.edu/publications/pub_index.html#1990)</sup> and since 2017 has had active research into development of deployable heat shield concepts
-
-[tweet](https://twitter.com/QuinnKupec/status/985736260827471872?s=19)
+How did I design the payload bay
+- constraints
+  - a fucking egg
+  - parachutes
+  - electonics
+  - easy access
+  - damage resistance +100
+  - fit within the size of the container
+  - overall length
+- features
+  - electronics deck
+    - easily removable
+    - putting it back in with the screws (fuck yeah)
+  - egg padding
+  - fitting everything in (add picture or link or something)
+- testing
+  - baloon launch
+  - drop testiong
+  - 2nd balloon launch
+    - hitting the ground at waay too fast
+    - 
