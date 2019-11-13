@@ -16,7 +16,7 @@ comments: false
     <figcaption>**add caption**</figcaption>
 </figure>
 
-[Cansat](http://www.cansatcompetition.com/) is an annual international student design, build, fly competition focused on space-related topics.  The 2018 competition was to a payload that would be launched on a rocket with deployabale heat shield capable of slowing the payloads descent.  The payload is released from the rocket at apogee, then as the payload falls the heat shield deploys to slow the descent to 10-30 m/s, at an altitude of 300 m the payload would deploy a parachute and drop the heat shield and touch down.  During the descent the payload transmits atmospheric, orientation, altitude, and GPS data to a groundstation.  In addition to the electronics the payload also had to contain an egg used to simulate a delicate instrument, which was required to survive the flight.
+[Cansat](http://www.cansatcompetition.com/) is an annual international student design, build, fly competition focused on space-related topics.  In 2018, 104 teams submitted designs to the competition: creating a deployable heat shield that would slow a payloads descent once ejected from a rocket.  The payload would be released from the rocket at apogee, shortly after release the the payload will deploy its heat shield  to slow its descent rate to within 10-30 m/s, at an altitude of 300 m the payload would deploy a parachute and release the heat shield before touching down.  During the descent the payload would transmit atmospheric, orientation, altitude, and GPS data to a groundstation.  In addition to the onboard electronics, the payload also had to contain an egg, used to simulate a delicate instrument, which was required to survive the flight. Among the 104 teams that submitted designs, and the 40 teams that competed in Texas, we placed in 4th place **scoring errors agreed by judges after competition**
 
 [**add Conops picture** ](\portfolio\Cansat\prelaunch.jpg) (or just describe conops)
 
@@ -40,6 +40,14 @@ The outer carbon fiber tube was [custom made](\portfolio\Cansat\CF_tubes.jpg) ha
     <figcaption>Simulated flow velocity vectors</figcaption>
 </figure>
 
-In addition to designing the probe body I also ran CFD simulations in ANSYS Fluent to design a heat shield that would be stable and reach the target descent velocity.  The result was a 6 paneled heat shield, with a spar length of 285mm held at a 60<sup>o</sup> half-angle and a total diameter of 622mm, the simulated terminal velocity of the entire probe was calculate to be 10m/s. 
+In addition to designing the probe body, I also ran CFD simulations in ANSYS Fluent to design an aerodynamic profile for the heat shield that would result in a stable probe at the target descent velocity.  The result was a 6 paneled heat shield, with a spar length of 285mm held at a 60<sup>o</sup> half-angle and a total diameter of 622mm, the simulated terminal velocity of the entire probe was calculate to be 10m/s.  This was verified through various aerodynamic drop tests as well as through test flights of the probe.
+
+<figure>
+    <a href="\portfolio\Cansat\Test_02.png"><img src="\portfolio\Cansat\Test_02.png"></a>
+    <figcaption>Flight testing</figcaption>
+</figure>
+
+
+ A test flight was performed in May of 2018 to verify designs of the probe before the competition.  The test flight was achieved by dropping the probe from a weather balloon at an altitude around 7000ft.  The probe's descent velocity and stability were verified, and functionality of the instrumentation and communications were demonstrated to succesfully work.  <!-- An error in the electronics code led to the parachute not being deployed when the heat shield was released, resulting in the probe impacting the ground at velocities >30 m/s, fortunately for the test flight, the egg was replaced with an alternate electronics stack to test the validity of our electronics.  The carbon fiber tube protecting the electronics worked and only the small whip antenna portruding from the tube was damaged upon impact.-->
 
 During the flight, the heat shield failed to detatch from the payload due to a malfunction in the parachute deployment mechanism.  The mechanism had been tested on the ground and had shown to reliably deploy the parachute.  However looking at CFD simulations, descending at 10 m/s there is a large eddy that results in downward air velocities ranging from 2-5 m/s above where the parachute deployment mechanism was.  So despite succesful release of the parachute, the eddies forced the parachute to stay in place, and thus not slowing down the probe body and releasing the heat shield.  
