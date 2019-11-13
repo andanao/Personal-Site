@@ -6,7 +6,7 @@ daterange: October 2017 - May 2019
 project: true
 categories: []
 tags: [ANSYS, MATLAB, NX]
-excerpt: "fill!!"
+excerpt: "Development of a paraffin N2O hybrid rocket motor"
 comments: false
 ---
 ## draft

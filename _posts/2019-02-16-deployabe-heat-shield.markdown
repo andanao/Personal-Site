@@ -5,7 +5,7 @@ date:  2019-03-23
 daterange: July 2018 - July 2019
 project: true
 categories: [Research]
-tags: [NX,ANSYS,MATLAB, Fabrication, Simulation]
+tags: [NX,ANSYS,MATLAB, Fabrication]
 excerpt: "Research and development project for the UMD Space Systems Lab"
 comments: false
 ---
