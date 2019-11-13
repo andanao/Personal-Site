@@ -13,35 +13,33 @@ comments: false
 
 <figure>
     <a href="\portfolio\Cansat\prelaunch.jpg"><img src="\portfolio\Cansat\prelaunch.jpg"></a>
-    <figcaption>¯\_(ツ)_/¯</figcaption>
+    <figcaption>**add caption**</figcaption>
 </figure>
 
-[Cansat](http://www.cansatcompetition.com/) is an annual international student design, build, fly competition focused on space-related topics.  The 2018 competition was to a payload that would be launched on a rocket with deployabale heat shield capable of slowing the payloads descent.  The payload is released from the rocket at apogee, then as the payload falls the heat shield deploys to slow the descent to 10 m/s, at an altitude of 300 m the payload would deploy a parachute and drop the heat shield and touch down.  During the descent the payload transmits atmospheric, orientation, altitude, and GPS data to a groundstation.  In addition to the electronics the payload also had to contain an egg used to simulate a delicate instrument, which was required to survive the flight.
+[Cansat](http://www.cansatcompetition.com/) is an annual international student design, build, fly competition focused on space-related topics.  The 2018 competition was to a payload that would be launched on a rocket with deployabale heat shield capable of slowing the payloads descent.  The payload is released from the rocket at apogee, then as the payload falls the heat shield deploys to slow the descent to 10-30 m/s, at an altitude of 300 m the payload would deploy a parachute and drop the heat shield and touch down.  During the descent the payload transmits atmospheric, orientation, altitude, and GPS data to a groundstation.  In addition to the electronics the payload also had to contain an egg used to simulate a delicate instrument, which was required to survive the flight.
 
 [**add Conops picture** ](\portfolio\Cansat\prelaunch.jpg) (or just describe conops)
 
 A team of 6 student researchers (including myself) at the University of Maryland's [Space Systems Lab](http://spacecraft.ssl.umd.edu) were interested in joining this competition since the lab has done previous research on deployable heat shields for atmospheric reentry<sup>[1](https://spacecraft.ssl.umd.edu/publications/pub_index.html#1998)[2](https://spacecraft.ssl.umd.edu/publications/pub_index.html#1990)</sup> and since 2017 has had active research into development of deployable heat shield concept for atmospheric reentry, which during 2018 led to a conference call with [SpaceX](https://twitter.com/QuinnKupec/status/985736260827471872?s=19) about the potential for development of a deployable recovery system for upper stage recovery.
 
-The mechanical design of the payload was accomplished by another student and I.  I worked primarily on the design of the payload canister, which housed the parachute, electronics, heat shield release mechanism and the egg.
+The mechanical design of the payload was accomplished by another student and I.  I worked primarily on the design of the probe body, which housed the parachute, electronics, heat shield release mechanism and egg.  In addition to building and designing that, I also ran CFD simulations of the payload witht the heat shield deployed to calculate the descent rate and stability of the payload.
 
-How did I design the payload bay
-- constraints
-  - a fucking egg
-  - parachutes
-  - electonics
-  - easy access
-  - damage resistance +100
-  - fit within the size of the container
-  - overall length
-- features
-  - electronics deck
-    - easily removable
-    - putting it back in with the screws (fuck yeah)
-  - egg padding
-  - fitting everything in (add picture or link or something)
-- testing
-  - baloon launch
-  - drop testiong
-  - 2nd balloon launch
-    - hitting the ground at waay too fast
-    - 
+<figure>
+    <a href="\portfolio\Cansat\Probe_Body_Cad.png"><img src="\portfolio\Cansat\Probe_Body_Cad.png"></a>
+    <figcaption>Probe Body Cross Section</figcaption>
+</figure>
+
+The probe body was composed of 2 major parts: an outer carbon fiber tube for structural rigidity and protection of components, and an inner removable deck, holding the egg and the electronics in place, the inner deck would be inserted into the outer tube, then bolted in place with screws lining up with holes in the carbon fiber tube.  This protected delicate within a rigid carbon fiber shell that was capable of carrying launch loads and surviving any potential impacts.  Surrounding the egg on the opposite side of the electronics was foam padding that completely encased the egg.
+
+The heat shield deployment and release mechanism was made of a locking ring that would rotate to first release the heat shield arms, then by rotating in the opposite direction at the desired time it would open up to allow for space for the heat shield to detatch once the parachute slowed down the body.
+
+The outer carbon fiber tube was [custom made](\portfolio\Cansat\CF_tubes.jpg) hand in our lab to meet the size and weight requirements of the probe body.  It was made using a wet layup technique and then cut and sanded to size to remove excess material. The interior deck was made of carbon fiber wrapped balsa wood and foam core board.
+
+<figure>
+    <a href="\portfolio\Cansat\vector-1.png"><img src="\portfolio\Cansat\vector-1.png"></a>
+    <figcaption>Simulated flow velocity vectors</figcaption>
+</figure>
+
+In addition to designing the probe body I also ran CFD simulations in ANSYS Fluent to design a heat shield that would be stable and reach the target descent velocity.  The result was a 6 paneled heat shield, with a spar length of 285mm held at a 60<sup>o</sup> half-angle and a total diameter of 622mm, the simulated terminal velocity of the entire probe was calculate to be 10m/s. 
+
+During the flight, the heat shield failed to detatch from the payload due to a malfunction in the parachute deployment mechanism.  The mechanism had been tested on the ground and had shown to reliably deploy the parachute.  However looking at CFD simulations, descending at 10 m/s there is a large eddy that results in downward air velocities ranging from 2-5 m/s above where the parachute deployment mechanism was.  So despite succesful release of the parachute, the eddies forced the parachute to stay in place, and thus not slowing down the probe body and releasing the heat shield.  
