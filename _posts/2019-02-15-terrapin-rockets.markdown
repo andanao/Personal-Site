@@ -6,8 +6,30 @@ daterange: October 2017 - May 2019
 project: true
 categories: []
 tags: [ANSYS, MATLAB, NX]
-excerpt: "Development of a paraffin N2O hybrid rocket motor"
+excerpt: "Development of a paraffin N<sub>2</sub>O hybrid rocket motor"
 comments: false
 ---
-## draft
+# draft
 
+<center>
+<iframe width="560" height="315" src="https://www.instagram.com/p/B2jo-P5AVO5/embed/?autoplay=1" frameborder="0"> </iframe>
+</center>
+
+In October 2017 the Terrapin Rockets club started development of a hybrid rocket engine with the hopes of at some point participating in the [Spaceport America Cup's](https://www.spaceportamericacup.com/) Student Research and Design competition.  I was involved in the early stages of development of the team until I graduated in May 2019.  
+
+The team first began researching possible avenues for development, a liquid rocket test stand had been built in one of the labs but had never been succesfully fired before, however documentation and details on its functionality were difficult to find.  The other option considered was to develop a hybrid rocket, solid motors were not considered because **¯\\\_(ツ)\_/¯**.  
+
+Through reading recent research on the development of hybrid rocket motors, it was determined that paraffin and N<sub>2</sub>O would be optimal choices for the fuel and oxidizer combination.  Various other fuel options were considered, including HTPPB, however paraffin was selected due to its superior efficiency and regression rates.  The selection of oxidizers was limited due to requirement set forth by the competition and the university, no oxidizer which would require a breathing apparatus to safely handle or low temperature could be used.  As such N<sub>2</sub>O was selected since it was the most readily and cheaply avaliable oxidizer that met these criteria.
+
+<!-- <video>
+    <source src="\portfolio\Terprockets\20190324_143708_1.mp4" type="video/mp4">
+</video> -->
+<!-- <video width="320" height="240" controls>
+  <source src="\portfolio\Terprockets\20190324_143708_1.mp4" type="video/mp4">
+  <!-- <source src="movie.ogg" type="video/ogg"> -->
+<!-- Your browser does not support the video tag.
+</video> -->
+
+
+[test](\portfolio\Terprockets\20190324_143708_1.mp4)
+[test2](\portfolio\Terprockets\Cold_fire.MOV)
